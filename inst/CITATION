@@ -1,0 +1,21 @@
+citHeader("To cite RNABC in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Using microarray-based subtyping methods for breast cancer in the era of high-throughput RNA sequencing",
+  author       = personList(as.person("Christina Bligaard Pedersen"),
+                   as.person("Maria Rossing"),
+                   as.person("Finn Cilius Nielsen"),
+                   as.person("Lars Rønn Olsen")),
+  journal      = "Molecular Oncology",
+  year         = "2019",
+  volume       = "X",
+  number       = "X",
+  pages        = "X--X",
+  url          = "XXX",
+
+  textVersion  =
+  paste("Christina Bligaard Pedersen, Maria Rossing, Finn Cilius Nielsen, Lars Rønn Olsen (2018).",
+        "Using microarray-based subtyping methods for breast cancer in the era of high-throughput RNA sequencing.",
+        "Molecular Oncology (in review)",
+        "URL XXX")
+)

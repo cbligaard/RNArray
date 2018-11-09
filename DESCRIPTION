@@ -1,0 +1,30 @@
+Package: RNArray
+Title: RNA-seq mapping to microarray-based probesets and transformation of distributions
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Christina Bligaard", "Pedersen", email = "chrbl@bio.dtu.dk", role = c("aut", "cre")),
+    person("Lars Rønn", "Olsen", email = "lro@bioinformatics.dtu.dk", role = "aut"))
+Description:
+    The RNArray steps include running kallisto for mapping and processing 
+    by quantile normalization and batch correction.
+URL: http://github.com/cbligaard/RNArray
+BugReports: http://github.com/cbligaard/RNArray/issues
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    devtools,
+    fs,
+    parallel,
+    plyr,
+    tools
+Suggests:
+    shiny,
+    shinyFiles
+biocViews: 
+    affy,
+    preprocessCore,
+    scater,
+    sva
+RoxygenNote: 6.1.0
